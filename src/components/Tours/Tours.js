@@ -1,6 +1,6 @@
 import ToursData from './ToursData'
 export default function Tours(props) {
-    console.log(props)
+    console.log(props.data);
     return (
         <>
         <h2>Tours data</h2>
