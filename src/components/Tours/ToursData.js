@@ -1,5 +1,4 @@
 export default function ToursData (props){
-
     return(
         <>
         <div>

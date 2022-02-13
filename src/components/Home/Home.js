@@ -1,11 +1,12 @@
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import Tours from '../Tours/Tours'
-const db = require('../../data/db.json')
-export default function Home(){
+
+export default function Home(props){
+  console.log(props);
   return(<>
     <Header/>
-    <Tours data={db}/>
+    <Tours data={props.data}/>
     <Footer/>
     </>
   )
