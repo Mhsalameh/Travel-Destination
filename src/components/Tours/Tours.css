@@ -1,0 +1,15 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tour-link{
+    width:100%;   
+}
+
+.tours-data{
+    text-align: center;
+    font-size: 4vh;
+    color: #470D21;
+}

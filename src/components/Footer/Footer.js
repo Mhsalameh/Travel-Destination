@@ -1,14 +1,12 @@
-
-
+import "./Footer.css"
 export default function Footer() {
-    return (
-        <>
-
-        <ul style = {{listStyleType : "none"}}>
-            <li><a href=" ">Facebook</a></li>
-            <li><a href=" ">Instagram</a></li>
-        </ul>
-        <p>By Mohammad Salameh</p>
-        </>
-    )
+  return (
+    <>
+    <div className="footer">
+          <a href=" ">Facebook</a>
+          <a href=" ">Instagram</a>
+      <p>By Mohammad Salameh</p>
+      </div>
+    </>
+  );
 }

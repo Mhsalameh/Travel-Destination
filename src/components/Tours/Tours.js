@@ -1,17 +1,14 @@
-import ToursData from './ToursData'
+import Tour from "./tour/Tour";
+import "./Tours.css"
 export default function Tours(props) {
-    console.log(props.data);
-    return (
-        <>
-        <h2>Tours data</h2>
-        {
-            props.data.map(tour=>{
-                return(
-                    <ToursData key={tour.id} image={tour.image} name={tour.name}
-                    TourData={tour}/>
-                )
-            })
-        }
-        </>
-    )
+  return (
+    <>
+      <h2 className="tours-data">Tours data</h2>
+      <div className="card-container">
+      {props.data.map((tour) => {
+        return <Tour key={tour.id} tour={tour} />;
+      })}
+      </div>
+    </>
+  );
 }
