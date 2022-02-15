@@ -1,9 +1,13 @@
-
+import Navbar from "../Navbar/Navbar";
+import "./Header.css"
 
 export default function Header() {
     return (
     <>
-    <h1>Tours</h1>
+    <div className="header">
+    <h1>Top cities to visit</h1>
+    <Navbar/>
+    </div>
     </>
     )
 }

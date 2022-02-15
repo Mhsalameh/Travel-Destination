@@ -1,0 +1,32 @@
+* {
+    margin-top: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D67D3E;
+}
+
+nav {
+    align-self: center;
+    margin-right: 10px;
+}
+
+nav a:link, nav a:visited{
+    color: #191A19;
+    text-decoration: none;
+    padding: 14px 25px;
+    text-align: center;
+}
+nav a:hover{
+    color: #191A19;
+    text-decoration:underline;
+    padding: 14px 25px;
+    text-align: center;
+}
+nav:hover{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
